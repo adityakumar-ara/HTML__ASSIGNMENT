@@ -4,6 +4,8 @@
 }
 .nave{
     display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 ul{
     display: flex;
@@ -14,7 +16,46 @@ ul{
 ul li a{
     text-decoration: none;
     font-size: 20px;
+    color: rgb(216, 207, 207);
+}
+.nave button{
+    margin-left:500px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(14, 6, 134);
+    color: white;
+    border-radius: 16px;
+}
+.main{
+    display: flex;
+}
+.main p{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.main img{
+    height: 500px;
+}
+.nave ul li:first-child a {
+    color: rgb(14, 2, 2);
+}
+#heightcolor{
+    color: rgb(93, 93, 175);
+}
+p{
+    margin-left: 40px;
+    font-size: 25px;
 }
 button{
-    margin-left:600px;
+    font-weight: bold;
+    font-size: medium;
+    height: 35px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    background: rgb(14, 6, 134);
+    color: white;
 }
