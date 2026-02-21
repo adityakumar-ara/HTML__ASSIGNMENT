@@ -1,0 +1,128 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navebar {
+    display: flex;
+    gap: 150px;
+    justify-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.navebar ul {
+    display: flex;
+    text-decoration: none;
+    gap: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 80px;
+    gap: 4px;
+    padding: 8px 8px;
+    border-radius: 25px;
+}
+
+.search-box input{
+    height: 20px;
+    width: 100px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+}
+#lowerstr{
+    position: absolute;
+    left:600px;
+    height: 30px;
+    margin-top: 5px;
+}
+#globe {
+    height: 50px;
+    margin-left: 450px;
+    margin-top: -5px;
+}
+
+#star {
+    height: 50px;
+    margin-left: 900px;
+}
+.word{
+    margin-left: 450px;
+    margin-right: 40px;
+    padding: 20px 20px;
+}
+.word h1 {
+    text-align:right;
+    font-size: 90px;
+}
+
+.word pre {
+    text-align: center;
+    font-size:20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+    height: 30px;
+    width: auto;
+}
+.button input{
+    border-radius: 10px;
+}
+.button button:nth-child(2) {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.footer{
+ text-align: center;
+ gap: 10px; 
+ font-size: 25px; 
+ margin-top:40px;
+ height: 50px;
+ width: auto;
+}
+.appspng{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    gap: 10px;
+}
+.image img:nth-child(1){
+    height: 440px;
+    margin-top: 50px;
+    margin-left: 70px;
+    z-index:4;
+    position: absolute;
+}
+.image img:nth-child(2){
+    height: 350px;
+    margin-top:200px;
+    margin-left:150px;
+    z-index:3;
+    position: absolute;
+}
