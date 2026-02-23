@@ -1,23 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 .nav{
     display: flex;
-    gap: 20px;
+    gap: 40px;
+   
 }
 .nav ul{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav ul img{
     height: 30px;
     width: auto;
 }
 .main{
-position: absolute;
+    display: flex;
 }
 .images{
-    float: right;
-    height:auto;
-    position:absolute;
-    margin-left: 600px;
-    margin-top: -100px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.images img{
+    height: 250px;
+    
+}
+.text{
+    margin-left: 100px;
+    margin-top: 200px;
+
+}
+.text h1{
+    font-size: 70px;
+    width: 500px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background: green;
+    font-weight: bold;
+    font-weight: 50px;
+    margin-left: start;
+    margin-top: 20px;
+
+}
+.text p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.images img:nth-child(2){
+    margin-left: 20px;
+}
+.images img:nth-child(3){
+    height: auto;
+    width: 440px;
 }
