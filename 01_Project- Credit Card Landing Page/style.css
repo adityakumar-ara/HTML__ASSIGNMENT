@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.firstpage {
+    height: 100vh;
+    width: 100%;
+    background: #232222;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: 50px;
+    font-weight: 500;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav img {
+    margin-top: 25px;
+    height: 70px;
+    width: 80px;
+}
+
+main{
+    display: flex;
+    margin-left: 100px;
+    /* margin-right: 100px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.textsection {
+    color: white;
+
+}
+.textsection h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+}
+.textsection p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 550px;
+    margin-top: 20px;
+}
+.textsection button{
+    color: white;
+    background:transparent;
+    border: none;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.textsection button::after{
+    content:' →';
+}
+.cardsection :nth-child(1){
+    position: absolute;
+    height: 500px;
+    top:100px;
+    right: 10px;
+    z-index: 1;
+}
+.cardsection :nth-child(2){
+    position: absolute;
+    height: 500px;
+    top: 150px;
+    right:-150px;
+
+    z-index: 2;
+
+}
+.activety{
+    display: flex;
+}    
