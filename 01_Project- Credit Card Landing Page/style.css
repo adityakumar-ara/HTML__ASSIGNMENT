@@ -150,17 +150,50 @@ main{
     font-family:Arial, Helvetica, sans-serif ;
     margin-top: 100px;
 }
-.box-container{
-    display: flex;
-    justify-content: center;
-    gap: 250px;
-    padding: 40px;
-   
-   
+
+.box-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+
 }
-.service-box{
-    height: 250px;
-    width: 400px;
-    border: 1px solid aliceblue;
-    background: #121212;
-}      
+#leftrightbox{
+    margin-top: 40px;
+}
+.service-box {
+  width: 350px;
+  height: 300px;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+
+.service-box.active-box {
+  background-color: rgba(255, 255, 255, 0.1); 
+  border: 2px solid rgba(255, 255, 255, 0.8); 
+}
+
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  color: #121212;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto; 
+  font-size: 24px;
+}
+.service-box p{
+    margin-top: 100px;
+    font-size:38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-box img{
+    padding-top: 40px;
+}
