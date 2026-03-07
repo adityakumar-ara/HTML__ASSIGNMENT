@@ -149,4 +149,18 @@ main{
     font-weight: 200;
     font-family:Arial, Helvetica, sans-serif ;
     margin-top: 100px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 40px;
+   
+   
+}
+.service-box{
+    height: 250px;
+    width: 400px;
+    border: 1px solid aliceblue;
+    background: #121212;
 }      
