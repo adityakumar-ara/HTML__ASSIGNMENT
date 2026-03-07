@@ -1,26 +1,35 @@
 * {
     padding: 0;
     margin: 0%;
-    box-sizing: border-box;
-    overflow: hidden;
+    /* box-sizing: border-box;
+    overflow: hidden; */
 }
-
+body{
+    background: #232222;
+}
 .firstpage {
     height: 100vh;
     width: 100%;
-    background: #232222;
+    
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    top:1px;
+    background: #363434;
+    background: top;
 }
 
 nav ul {
     display: flex;
     gap: 100px;
     position: relative;
-    top: 50px;
+    /* top: 50px; */
     font-weight: 500;
     list-style: none;
 }
@@ -32,7 +41,7 @@ nav ul li a {
 }
 
 nav img {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     height: 70px;
     width: 80px;
 }
@@ -85,6 +94,59 @@ main{
     z-index: 2;
 
 }
-.activety{
+.activety ul{
     display: flex;
-}    
+   gap: 40px;
+   margin-top: 50px
+}
+.activety ul :nth-child(2){
+    margin-top:-30px;
+}
+.activety ul :nth-child(1){
+    font-size: 40px;
+}
+.activety ul li span p{
+    max-width:5px;
+}
+
+/* ---------------secound page ---------------------  */
+.secoudpage{
+    height: 100vh;
+    width: 100%;
+    
+}
+.logoes ul{
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+    list-style: none;
+    background: #555353;
+}
+
+.logoes ul li img{
+    height: 40px;
+    width: 100px;
+}
+.textsectionsecoundpage{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+} 
+.textsectionsecoundpage h1{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 900px;
+}
+.textsectionsecoundpage h1 B{
+    color: #770773;
+}
+.textsectionsecoundpage p{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-top: 100px;
+}      
